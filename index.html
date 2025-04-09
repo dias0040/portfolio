@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,48 +36,48 @@
     }
   </script>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
 
   <!-- Skip Link -->
   <a href="#main-content" class="skip-link" role="link" aria-label="Skip to main content"> 
     <span class="material-symbols-outlined">
         arrow_downward
     </span> 
-</a>
+  </a>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light custom-navbar" role="navigation">
+  <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar" role="navigation" aria-label="Primary Navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
       <div class="container-fluid px-4">
-        <a class="navbar-brand fw-bold" href="index.html">U P R I Z I N G</a>
+        <a class="navbar-brand fw-bold" href="index.html" itemprop="url">U P R I Z I N G</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="cases.html">Cases</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <ul class="navbar-nav ms-auto" role="list">
+            <li class="nav-item" role="listitem"><a class="nav-link" href="index.html" role="link">Home</a></li>
+            <li class="nav-item" role="listitem"><a class="nav-link" href="blog.html" role="link">Blog</a></li>
+            <li class="nav-item" role="listitem"><a class="nav-link" href="cases.html" role="link">Cases</a></li>
+            <li class="nav-item" role="listitem"><a class="nav-link" href="about.html" role="link">About</a></li>
+            <li class="nav-item" role="listitem"><a class="nav-link" href="contact.html" role="link">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <main>
+  <main role="main" itemscope itemtype="https://schema.org/MainContentOfPage">
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" role="region" aria-labelledby="hero-heading">
       <div class="container text-center">
-        <h1 class="display-2 fw-bold" role="heading" aria-level="1">Imaginations<br> into Reality</h1>
+        <h1 class="display-2 fw-bold" id="hero-heading" role="heading" aria-level="1" itemprop="headline">Imaginations<br> into Reality</h1>
       </div>
     </section>
 
     <!-- Stats Section -->
-    <section class="stats text-center" id="main-content">
-      <h2 class="display-6 fw-bold" role="heading" aria-level="2">Accomplishments</h2>
+    <section  id="main-content" class="stats text-center" role="region" aria-labelledby="stats-heading">
+      <h2 class="display-6 fw-bold" id="stats-heading" role="heading" aria-level="2">Accomplishments</h2>
       <div class="container1">
-        <div class="row ">
+        <div class="row">
           <div class="col-12 col-md-4 mb-4">
             <h3 class="display-5 fw-bold">10+</h3>
             <p>Experience</p>
@@ -92,37 +92,37 @@
           </div>
         </div>
       </div>
-      <p class="info" role="contentinfo">
+      <p class="info" role="doc-subtitle">
         With over 10 years of experience in the marketing industry, we have successfully delivered more than 95 projects and managed over 15 businesses. Specializing in 3D marketing, our team has consistently provided innovative and cutting-edge solutions that help brands stand out in a competitive market.
       </p>
     </section>
 
     <!-- Featured Projects -->
-    <section class="py-5">
+    <section class="py-5" role="region" aria-labelledby="featured-heading">
       <div class="container">
-        <h2 class="display-6 fw-bold" role="heading" aria-level="2">Featured Projects</h2>
+        <h2 class="display-6 fw-bold" id="featured-heading" role="heading" aria-level="2">Featured Projects</h2>
         <div class="row g-4">
           <div class="col-12 col-md-4">
-            <div class="card" role="article">
-              <img src="images/vianabottle.png" class="card-img-top" alt="Project 1">
+            <div class="card" role="article" itemscope itemtype="https://schema.org/CreativeWork">
+              <img src="images/vianabottle.png" class="card-img-top" alt="Project 1" itemprop="image">
               <div class="card-body">
-                <p class="card-text">Modeled all these products and created the labels in just 2 days! Proud of the fast turnaround and attention to detail. 💪🎨 #3DModeling #ProductDesign #QuickTurnaround</p>
+                <p class="card-text" itemprop="description">Modeled all these products and created the labels in just 2 days! Proud of the fast turnaround and attention to detail. 💪🎨 #3DModeling #ProductDesign #QuickTurnaround</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card" role="article">
-              <img src="images/robothand.png" class="card-img-top" alt="Project 2">
+            <div class="card" role="article" itemscope itemtype="https://schema.org/CreativeWork">
+              <img src="images/robothand.png" class="card-img-top" alt="Project 2" itemprop="image">
               <div class="card-body">
-                <p class="card-text">Created this animation from start to finish in just 4 days for a concert! Every detail, from concept to execution, was handled in-house. 🎶🎥 #Animation #ConcertVisuals</p>
+                <p class="card-text" itemprop="description">Created this animation from start to finish in just 4 days for a concert! Every detail, from concept to execution, was handled in-house. 🎶🎥 #Animation #ConcertVisuals</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card" role="article">
-              <img src="images/cgibrand.png" class="card-img-top" alt="Project 3">
+            <div class="card" role="article" itemscope itemtype="https://schema.org/CreativeWork">
+              <img src="images/cgibrand.png" class="card-img-top" alt="Project 3" itemprop="image">
               <div class="card-body">
-                <p class="card-text">Produced this CGI video from scratch in just 3 days! From modeling and animation to final render, every detail was crafted with precision. 🎬✨ #CGI #VideoProduction</p>
+                <p class="card-text" itemprop="description">Produced this CGI video from scratch in just 3 days! From modeling and animation to final render, every detail was crafted with precision. 🎬✨ #CGI #VideoProduction</p>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
             <div class="col-12 col-md-6 p-5">
               <h3 class="mb-3">Why Choose Us?</h3>
               <p class="card-text">With over 10 years of experience, 95+ successful projects, and a strong focus on 3D marketing, we bring creativity and precision to every project. From concept to completion, we deliver results that make your brand stand out. Let’s bring your vision to life!</p>
-              <a href="#" class="btn btn-dark text-white rounded-pill px-4 mt-3">Talk to us</a>
+              <a href="#" class="btn btn-dark text-white rounded-pill px-4 mt-3" role="button">Talk to us</a>
             </div>
             <div class="col-12 col-md-6">
               <img src="images/bugatticar.png" alt="photo of the Bugatti car" class="img-fluid w-100 h-100 object-fit-cover">
@@ -150,7 +150,7 @@
     </section>
   </main>
 
-  <footer class="text-center" role="contentinfo">
+  <footer class="text-center" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
     <div class="social-links">
       <ul role="list">
         <li role="listitem"><a href="#" role="link"><i class="fab fa-instagram"></i></a></li>
@@ -159,7 +159,7 @@
       </ul>
     </div>
     <div class="container">
-      <p>© 2025 Uprizing Studio. All rights reserved.</p>
+      <p>&copy; 2025 Uprizing Studio. All rights reserved.</p>
     </div>
   </footer>
 
