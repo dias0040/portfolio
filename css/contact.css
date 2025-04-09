@@ -4,6 +4,33 @@ body {
     
 }
 
+/* Navbar Link Hover Underline */
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: color 0.3s ease; /* Smooth transition for color */
+  }
+  
+  /* Add underline on hover */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ff5722; /* Optional: Change color on hover */
+  }
+  
+  .navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #ff5722; /* Underline color */
+    transition: width 0.3s ease; /* Smooth transition for underline */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%; /* Full width underline on hover */
+  }
+  
+
 /* Custom Navbar Styling */
 .custom-navbar {
     position: fixed; /* Navbar stays fixed at the top */

@@ -3,6 +3,29 @@ body {
     font-family: 'Montserrat', sans-serif; /* Default font-family applied to the body */
 }
 
+/* Navbar Link Hover Animation */
+.navbar-nav .nav-item .nav-link {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* On hover: scale the link and change color */
+  .navbar-nav .nav-item .nav-link:hover {
+    transform: scale(2); /* Slightly enlarge the link */
+    color: #ff5722; /* Change color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  /* Navbar background hover effect */
+  .custom-navbar:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly darken the navbar on hover */
+  }
+  
+  /* Navbar Brand Hover Effect */
+  .navbar-brand:hover {
+    color: #ff5722; /* Change brand color on hover */
+    text-decoration: none;
+  }
+
 /* Custom Navbar Styling */
 .custom-navbar {
     position: fixed; /* Navbar stays fixed at the top */
