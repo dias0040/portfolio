@@ -1,0 +1,335 @@
+z/* Global Font Settings */
+body {
+    font-family: 'Montserrat', sans-serif; /* Default font-family applied to the body */
+}
+
+/* Custom Navbar Styling */
+.custom-navbar {
+    position: fixed; /* Navbar stays fixed at the top */
+    top: 3%; /* Adjusted to be 3% from the top */
+    left: 50%; /* Positioned at the center horizontally */
+    transform: translateX(-50%); /* Centering the navbar */
+    width: 90vw; /* Takes 90% of the viewport width */
+    padding: 2rem; /* Padding inside the navbar */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically aligns the items in the navbar */
+    justify-content: space-between; /* Spacing between navbar items */
+    border-radius: 5rem; /* Rounded corners */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Shadow effect for depth */
+    background-color: #ffffff; /* White background */
+    z-index: 1030; /* Ensures navbar is above other elements */
+}
+
+/* Styling for Heading inside Hero Section */
+h1 {
+    padding-top: 9rem; /* Adds padding at the top */
+    padding-left: 3rem; /* Adds padding to the left */
+    text-align: left; /* Align text to the left */
+}
+
+/* Styling for Heading 2 */
+h2 {
+    margin-top: 5rem; /* Adds margin at the top */
+    margin-bottom: 5rem; /* Adds margin at the bottom */
+    text-align: left; /* Align text to the left */
+    padding-left: 2rem; /* Adds left padding */
+}
+
+.info {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.sec-2 {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
+.img {
+    display: block; /* Makes the image a block element */
+    margin: auto; /* Centers the image horizontally */
+    margin-bottom: 4rem;
+    width: 60%;
+}
+
+.sec-2 p {
+    text-align: center;
+}
+
+.sec-2 h2 {
+    padding: inherit;
+}
+
+.sec-3 {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
+.row {
+    margin: auto;
+    width: inherit;
+}
+
+/* Row styling */
+.row {
+    margin: 0 auto; /* Centers the row */
+}
+
+/* Container Styling for Stats Section */
+.container1 {
+    background-color: #DEC991; /* Light yellow background */
+    padding: 5rem 2rem; /* Padding inside the container */
+    border-radius: 20px; /* Rounded corners */
+    margin: auto; /* Centers the container */
+    width: 60%; /* Sets width */
+}
+
+/* Stats Section Styling */
+.stats {
+    justify-content: center; /* Centering stats items */
+}
+
+.stats .info {
+    margin: 5rem auto 0; /* Center aligned info text */
+    max-width: 1000px; /* Max width for the content */
+    padding: 0 1rem; /* Padding around text */
+}
+
+/* Row div styling */
+.row div {
+    gap: 5rem; /* Space between columns */
+}
+
+/* Card Styling */
+.card {
+    border: none; /* Removes default card border */
+    margin: auto;
+    width: 80%;
+}
+
+.card img {
+    border-radius: 30px; /* Rounded corners for card images */
+    margin-bottom: 1rem; /* Negative margin to adjust positioning */
+}
+
+/* Card3 Section Styling */
+.card3 {
+    background-color: #343a40; /* Dark background color */
+    padding: 3rem; /* Padding inside the card */
+    margin: 0 auto 8rem; /* Center aligned with bottom margin */
+    border-radius: 50px; /* Rounded corners */
+    color: #fff; /* White text color */
+    max-width: 1200px; /* Max width for the card */
+}
+
+img {
+    border-radius: 30px; /* Rounded corners for images */
+}
+
+/* Why Us Section Styling */
+.why-us {
+    background-color: #e9ecef; /* Light gray background */
+    padding: 60px 0; /* Padding at top and bottom */
+}
+
+/* Social Links Styling */
+.social-links ul {
+    display: flex; /* Flexbox for layout */
+    text-decoration: none; /* Removes default underlines */
+    list-style: none; /* Removes bullet points */
+    justify-content: center; /* Centers the list items */
+    gap: 2rem; /* Spacing between items */
+    font-size: 2rem; /* Font size for icons */
+}
+
+/* Font Awesome icons color */
+.fab {
+    color: #fff; /* White color for icons */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text color */
+    padding: 30px 0; /* Padding inside the footer */
+    justify-content: center; /* Centers the content */
+}
+
+/* Media Query for Tablets */
+@media (min-width: 600px) and (max-width: 850px) {
+
+    .skip-link {
+        display: none;
+    }
+
+    .hero {
+        margin: 8rem auto; /* Reduced margin */
+        height: 30rem; /* Adjusted height */
+    }
+
+    h1 {
+        padding-top: 15rem; /* Adjusted padding */
+        padding-left: 1rem; /* Reduced padding */
+        font-size: 2rem; /* Smaller font size */
+        text-align: left; /* Left aligned */
+    }
+
+    h2 {
+        text-align: left; /* Centered text */
+        padding-left: 0; /* Removed left padding */
+    }
+
+    
+
+    .card3 {
+        padding: 2rem; /* Reduced padding */
+        margin: 2rem 1rem 5rem; /* Adjusted margins */
+    }
+
+    .row {
+        margin: auto;
+        width: inherit;
+    }
+
+    .card-text {
+        font-size: .7rem; /* Smaller font size */
+    }
+
+    .custom-navbar {
+        width: 95vw; /* Adjusted width */
+        padding: 1rem; /* Reduced padding */
+        border-radius: 2rem; /* Rounded corners */
+    }
+}
+
+/* Media Query for Medium Screens */
+@media (min-width: 600px) and (max-width: 1368px) {
+    .custom-navbar {
+        width: 95vw; /* Adjusted width */
+        padding: 1rem 2rem; /* Adjusted padding */
+        border-radius: 2rem; /* Rounded corners */
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    .hero {
+        margin: auto; /* Centered */
+        margin-top: 9rem; /* Adjusted margin */
+        height: 30rem; /* Adjusted height */
+    }
+
+    h1 {
+        padding-top: 15rem; /* Adjusted padding */
+        padding-left: 1rem; /* Adjusted padding */
+        font-size: 2.5rem; /* Increased font size */
+        text-align: left; /* Left aligned */
+    }
+
+    h2 {
+        padding-left: inherit; /* Inherited padding */
+        text-align: left; /* Center aligned */
+    }
+
+
+    .card3 {
+        margin-left: 2rem; /* Adjusted margins */
+        margin-right: 2rem;
+        padding: 2rem; /* Adjusted padding */
+    }
+
+    .row {
+        margin: auto;
+        width: inherit;
+    }
+
+    .card3 .row {
+        text-align: left; /* Left aligned */
+    }
+
+    .card3 img {
+        margin-top: 2rem; /* Adjusted margin */
+    }
+
+    footer {
+        text-align: center; /* Centered footer content */
+    }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column; /* Stacked layout */
+        padding: 2rem 1rem; /* Adjusted padding */
+        text-align: center; /* Center aligned text */
+        height: auto; /* Automatic height */
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    h1 {
+        padding-top: 10rem; /* Adjusted padding */
+        padding-left: 2rem; /* Removed padding */
+    }
+
+    h2 {
+        padding-left: 2rem; /* Adjusted padding */
+    }
+
+    .sec-2 {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    
+    .img {
+        display: block; /* Makes the image a block element */
+        margin: auto; /* Centers the image horizontally */
+        margin-bottom: 4rem;
+        width: 90%;
+    }
+    
+    .sec-2 p {
+        text-align: center;
+    }
+    
+    .sec-2 h2 {
+        padding: inherit;
+    }
+    
+    .sec-3 {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+    .row {
+        margin: auto;
+        width: inherit;
+    }
+
+    .stats .row,
+    .featured-projects .row {
+        flex-direction: column; /* Stacked layout */
+        align-items: center; /* Center aligned */
+    }
+
+    .card3 {
+        font-size: 1rem; /* Adjusted font size */
+        padding:  inherit; /* Inherited padding */
+        margin: auto; /* Center aligned */
+        padding-bottom: 2rem;
+        width: 90%; /* Adjusted width */
+    }
+
+    .info {
+        margin: auto; /* Center aligned */
+        width: 80%; /* Adjusted width */
+    }
+
+}
